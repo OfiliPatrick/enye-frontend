@@ -180,7 +180,7 @@ const Wrapper = () => {
       filters: [
         { text: "MasterCard", value: "MasterCard" },
         { text: "Visa", value: "Visa" },
-         { text: "JCB", value: "JCB" }
+        { text: "JCB", value: "JCB" },
       ],
       onFilter: (value, record) => record.CreditCardType.indexOf(value) === 0,
     },
@@ -248,7 +248,7 @@ const Wrapper = () => {
     },
   ];
 
-  const scroll = { x: 3000, y: 550 };
+  const scroll = { x: 3000, y: 544 };
   return (
     <div className="wrapper">
       <Header />
