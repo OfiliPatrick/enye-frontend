@@ -179,7 +179,7 @@ const Wrapper = () => {
       width: 145,
       filters: [
         { text: "MasterCard", value: "MasterCard" },
-        { text: "Visa", value: "Visa" },
+        { text: "VISA", value: "VISA" },
         { text: "JCB", value: "JCB" },
       ],
       onFilter: (value, record) => record.CreditCardType.indexOf(value) === 0,
